@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.halal.triz.trizna.TutorialActivity"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi ini membantu anda untuk mencari lokasi rumah makan halal yang ada di kota Manado."/>
+        <TextView
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Tekan Tombol Lokasi yang ada di bagain bawah."/>
+        <TextView
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Jika Lokasi anda ditemukan, akan terdapat lingkaran yang menandakan radius sejauh 300 meter."/>
+        <TextView
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Tekan Point pada peta untuk melihat detail Nama Tempat tersebut."/>
+        <TextView
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Tekan icon navigasi Google di bagian bawah kanan untuk mengetahui jalur menuju tempat tersebut."/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

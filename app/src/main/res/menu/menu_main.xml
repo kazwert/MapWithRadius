@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.halal.triz.trizna.MainActivity">
+    <item
+        android:id="@+id/action_tutorial"
+        android:title="Tutorial" />
+    <item
+        android:id="@+id/action_about"
+        android:title="About"/>
+    <item
+        android:id="@+id/action_exit"
+        android:title="Exit"/>
+</menu>
